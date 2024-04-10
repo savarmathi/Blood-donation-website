@@ -1,0 +1,180 @@
+*{
+
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+#navbar{
+  position:sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: .5rem;
+  box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+  background:black;
+}
+.navbar .navbar-brand{
+  font-size:25px;
+  font-weight: 800;
+  color:#29f700 !important;
+}
+#navbarSupportedContent a{
+  color:#fff;
+  border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+  border-bottom: 2px solid #29f700;
+}
+#navbarSupportedContent button{
+  background:#29f700;
+  width:  5rem;
+  border-radius: 15px;
+}
+section{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+}
+
+
+/*Home*/
+
+
+
+#Home{
+  background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.2)) ,url("https://www.shutterstock.com/image-photo/blood-donor-donation-bouncy-ball-600nw-541600759.jpg");
+  background-size:cover;
+  background-position:center;
+  flex-direction:column;
+}
+#Home h1{
+  font-size:100px;
+  color:red;
+  letter-spacing: 2px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow:  0px 1px 0px #ccc,
+                0px 2px 0px #ccc,
+                0px 3px 0px #ccc;
+}
+#Home p{
+  font-size: 20px;
+  color:#fff;
+}
+#Home .input-group{
+  width:50%;
+  height:45px;
+}
+.signin{
+  color:white !important;
+  box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+ /*Registration**/
+#Registration{
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.2)),url("https://calaidhealth.com/wp-content/uploads/2022/06/Nurse-preparing-syringe-for-injection.jpg");
+    background-position:center;
+    flex-direction:column;
+
+}
+input{
+    padding:0px;
+    
+} 
+tr{
+    font-size:20px;
+    color:white;
+}
+form{
+    background:rgba(255,255,255,0.06);
+    box-shadow: 0px 32px 0 rgba(31,38,135,.37);
+    border-radius:30px;
+    border-left:1px solid rgba(255,255,255,.3);
+    border-top:1px solid rgba(255,255,255,.3);
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+    text-shadow:2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 3px;
+    margin-bottom:5%;
+    opacity:.7;
+
+}
+ /**About Us**/
+
+#About {
+    background: #fff;
+
+}
+#About h1{
+    font-weight:600%;
+    font-size:45px;
+    color:green;
+}
+#About p{
+    color:#000000;
+    font-weight:90%;
+    font-size:20px;
+}
+/*Services**/
+#Services{
+  background:#ccc;
+}
+
+.card img{
+   height:200px;
+   background: red;
+   
+}
+.inner{
+   overflow: hidden;
+}
+.card img:hover{
+   transform: scale(1.5);
+   transition: 3s;
+}
+/**Contact**/
+#Contact{
+   background: pink;
+}
+form{
+   background:rgba(255,255,255,0.06);
+   box-shadow: 0px 32px 0 rgba(31,38,135,.37);
+   border-radius:30px;
+   border-left:1px solid rgba(255,255,255,.3);
+   border-top:1px solid rgba(255,255,255,.3);
+}
+.container{
+   width:200%;
+   height:120vh;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+.FeedBackBox{
+   background:red;
+   padding: 50px 100px;
+   border-radius: 10px;
+   display:felx;
+   flex-direction: column;
+   align-items: center;
+}
+.emoji{
+   width:100px;
+   height:100px;
+   border-radius: 50%;
+   background:pink;
+   margin-bottom: 30px;
+}
+.emoji img{
+   width:80px;
+   margin: 0 10px;
+}
+#emoji{
+   display:flex;
+   align-items: center;
+}
